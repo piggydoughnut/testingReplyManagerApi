@@ -1,0 +1,2511 @@
+0 : will wait 0
+1 : will wait 1.5
+2 : will wait 3
+3 : will wait 4.5
+4 : will wait 6
+5 : will wait 7.5
+6 : will wait 9
+7 : will wait 10.5
+8 : will wait 12
+9 : will wait 13.5
+10 : will wait 15
+11 : will wait 16.5
+12 : will wait 18
+13 : will wait 19.5
+14 : will wait 21
+15 : will wait 22.5
+16 : will wait 24
+17 : will wait 25.5
+18 : will wait 27
+19 : will wait 28.5
+20 : will wait 30
+21 : will wait 31.5
+22 : will wait 33
+23 : will wait 34.5
+24 : will wait 36
+25 : will wait 37.5
+26 : will wait 39
+27 : will wait 40.5
+28 : will wait 42
+29 : will wait 43.5
+30 : will wait 45
+31 : will wait 46.5
+32 : will wait 48
+33 : will wait 49.5
+34 : will wait 51
+35 : will wait 52.5
+36 : will wait 54
+37 : will wait 55.5
+38 : will wait 57
+39 : will wait 58.5
+40 : will wait 60
+41 : will wait 61.5
+42 : will wait 63
+43 : will wait 64.5
+44 : will wait 66
+45 : will wait 67.5
+46 : will wait 69
+47 : will wait 70.5
+48 : will wait 72
+49 : will wait 73.5
+50 : will wait 75
+51 : will wait 76.5
+52 : will wait 78
+53 : will wait 79.5
+54 : will wait 81
+55 : will wait 82.5
+56 : will wait 84
+57 : will wait 85.5
+58 : will wait 87
+59 : will wait 88.5
+60 : will wait 90
+61 : will wait 91.5
+62 : will wait 93
+63 : will wait 94.5
+64 : will wait 96
+65 : will wait 97.5
+66 : will wait 99
+67 : will wait 100.5
+68 : will wait 102
+69 : will wait 103.5
+70 : will wait 105
+71 : will wait 106.5
+72 : will wait 108
+73 : will wait 109.5
+74 : will wait 111
+75 : will wait 112.5
+76 : will wait 114
+77 : will wait 115.5
+78 : will wait 117
+79 : will wait 118.5
+80 : will wait 120
+81 : will wait 121.5
+82 : will wait 123
+83 : will wait 124.5
+84 : will wait 126
+85 : will wait 127.5
+86 : will wait 129
+87 : will wait 130.5
+88 : will wait 132
+89 : will wait 133.5
+90 : will wait 135
+91 : will wait 136.5
+92 : will wait 138
+93 : will wait 139.5
+94 : will wait 141
+95 : will wait 142.5
+96 : will wait 144
+97 : will wait 145.5
+98 : will wait 147
+99 : will wait 148.5
+100 : will wait 150
+101 : will wait 151.5
+102 : will wait 153
+103 : will wait 154.5
+104 : will wait 156
+105 : will wait 157.5
+106 : will wait 159
+107 : will wait 160.5
+108 : will wait 162
+109 : will wait 163.5
+110 : will wait 165
+111 : will wait 166.5
+112 : will wait 168
+113 : will wait 169.5
+114 : will wait 171
+115 : will wait 172.5
+116 : will wait 174
+117 : will wait 175.5
+118 : will wait 177
+119 : will wait 178.5
+0 : waited  0
+The data length in response: 10
+1 : waited  1.5
+The data length in response: 10
+2 : waited  3
+The data length in response: 10
+3 : waited  4.5
+The data length in response: 10
+4 : waited  6
+The data length in response: 10
+5 : waited  7.5
+The data length in response: 10
+6 : waited  9
+The data length in response: 10
+7 : waited  10.5
+The data length in response: 10
+8 : waited  12
+The data length in response: 10
+9 : waited  13.5
+[
+  { idx: 0, sentRequestAt: '2019-08-07T14:00:48.415Z' },
+  { idx: 1, sentRequestAt: '2019-08-07T14:00:49.911Z' },
+  { idx: 2, sentRequestAt: '2019-08-07T14:00:51.412Z' },
+  { idx: 3, sentRequestAt: '2019-08-07T14:00:52.911Z' },
+  { idx: 4, sentRequestAt: '2019-08-07T14:00:54.412Z' },
+  { idx: 5, sentRequestAt: '2019-08-07T14:00:55.912Z' },
+  { idx: 6, sentRequestAt: '2019-08-07T14:00:57.408Z' },
+  { idx: 7, sentRequestAt: '2019-08-07T14:00:58.912Z' },
+  { idx: 8, sentRequestAt: '2019-08-07T14:01:00.412Z' },
+  { idx: 9, sentRequestAt: '2019-08-07T14:01:01.911Z' }
+]
+Error: Request failed with status code 429
+    at createError (/Users/Dasha/Projects/keysys-core-node/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/Dasha/Projects/keysys-core-node/node_modules/axios/lib/core/settle.js:18:12)
+    at IncomingMessage.handleStreamEnd (/Users/Dasha/Projects/keysys-core-node/node_modules/axios/lib/adapters/http.js:201:11)
+    at IncomingMessage.emit (events.js:201:15)
+    at endReadableNT (_stream_readable.js:1130:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:17) {
+  config: {
+    adapter: [Function: httpAdapter],
+    transformRequest: { '0': [Function: transformRequest] },
+    transformResponse: { '0': [Function: transformResponse] },
+    timeout: 55000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    validateStatus: [Function: validateStatus],
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'Application/json',
+      'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+        '(KHTML, like Gecko) Chrome/70.0.3538.77 ' +
+        'Safari/537.36'
+    },
+    method: 'get',
+    baseURL: 'https://api.xsellco.com/v1',
+    auth: {
+      username: 'ebayduplex@gmail.com',
+      password: 'SDHKNSKLjsklsjjk**Ksj'
+    },
+    params: { ordered_after: '2019-08-07T00:00:00Z', page: 1, page_limit: 10 },
+    url: 'https://api.xsellco.com/v1/orders',
+    data: undefined
+  },
+  request: ClientRequest {
+    _events: [Object: null prototype] {
+      socket: [Function],
+      abort: [Function],
+      aborted: [Function],
+      error: [Function],
+      timeout: [Function],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 6,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      _SNICallback: null,
+      servername: false,
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.xsellco.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(asyncId)]: 446,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    connection: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      _SNICallback: null,
+      servername: false,
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.xsellco.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(asyncId)]: 446,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'GET ' +
+      '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10 ' +
+      'HTTP/1.1\r' +
+      '\nAccept: application/json, text/plain, */*\r' +
+      '\nContent-Type: Application/json\r' +
+      '\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+      '(KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36\r' +
+      '\nHost: api.xsellco.com\r' +
+      '\nAuthorization: Basic ' +
+      'ZWJheWR1cGxleEBnbWFpbC5jb206U0RIS05TS0xqc2tsc2pqayoqS3Nq\r' +
+      '\nConnection: close\r' +
+      '\n\r' +
+      '\n',
+    _onPendingData: [Function: noopPendingOutput],
+    agent: Agent {
+      _events: [Object],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxCachedSessions: 100,
+      _sessionCache: [Object]
+    },
+    socketPath: undefined,
+    method: 'GET',
+    path: '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 429,
+      statusMessage: 'Too Many Requests',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular],
+      responseUrl: 'https://ebayduplex%40gmail.com:SDHKNSKLjsklsjjk**Ksj@api.xsellco.com/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10',
+      redirects: []
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function],
+      _currentRequest: [Circular],
+      _currentUrl: 'https://ebayduplex%40gmail.com:SDHKNSKLjsklsjjk**Ksj@api.xsellco.com/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10'
+    },
+    [Symbol(isCorked)]: false,
+    [Symbol(outHeadersKey)]: [Object: null prototype] {
+      accept: [Array],
+      'content-type': [Array],
+      'user-agent': [Array],
+      host: [Array],
+      authorization: [Array]
+    }
+  },
+  response: {
+    status: 429,
+    statusText: 'Too Many Requests',
+    headers: {
+      'content-type': 'application/json',
+      date: 'Wed, 07 Aug 2019 14:01:02 GMT',
+      server: 'nginx',
+      'content-length': '69',
+      connection: 'Close'
+    },
+    config: {
+      adapter: [Function: httpAdapter],
+      transformRequest: [Object],
+      transformResponse: [Object],
+      timeout: 55000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      validateStatus: [Function: validateStatus],
+      headers: [Object],
+      method: 'get',
+      baseURL: 'https://api.xsellco.com/v1',
+      auth: [Object],
+      params: [Object],
+      url: 'https://api.xsellco.com/v1/orders',
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object],
+      _eventsCount: 6,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      _header: 'GET ' +
+        '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10 ' +
+        'HTTP/1.1\r' +
+        '\nAccept: application/json, text/plain, */*\r' +
+        '\nContent-Type: Application/json\r' +
+        '\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+        '(KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36\r' +
+        '\nHost: api.xsellco.com\r' +
+        '\nAuthorization: Basic ' +
+        'ZWJheWR1cGxleEBnbWFpbC5jb206U0RIS05TS0xqc2tsc2pqayoqS3Nq\r' +
+        '\nConnection: close\r' +
+        '\n\r' +
+        '\n',
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      path: '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      _redirectable: [Writable],
+      [Symbol(isCorked)]: false,
+      [Symbol(outHeadersKey)]: [Object]
+    },
+    data: {
+      code: 429,
+      message: 'You have reached the maximum requests limit'
+    }
+  }
+}
+10 : waited  15
+[
+  { idx: 0, sentRequestAt: '2019-08-07T14:00:48.415Z' },
+  { idx: 1, sentRequestAt: '2019-08-07T14:00:49.911Z' },
+  { idx: 2, sentRequestAt: '2019-08-07T14:00:51.412Z' },
+  { idx: 3, sentRequestAt: '2019-08-07T14:00:52.911Z' },
+  { idx: 4, sentRequestAt: '2019-08-07T14:00:54.412Z' },
+  { idx: 5, sentRequestAt: '2019-08-07T14:00:55.912Z' },
+  { idx: 6, sentRequestAt: '2019-08-07T14:00:57.408Z' },
+  { idx: 7, sentRequestAt: '2019-08-07T14:00:58.912Z' },
+  { idx: 8, sentRequestAt: '2019-08-07T14:01:00.412Z' },
+  { idx: 9, sentRequestAt: '2019-08-07T14:01:01.911Z' },
+  { idx: 10, sentRequestAt: '2019-08-07T14:01:03.409Z' }
+]
+Error: Request failed with status code 429
+    at createError (/Users/Dasha/Projects/keysys-core-node/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/Dasha/Projects/keysys-core-node/node_modules/axios/lib/core/settle.js:18:12)
+    at IncomingMessage.handleStreamEnd (/Users/Dasha/Projects/keysys-core-node/node_modules/axios/lib/adapters/http.js:201:11)
+    at IncomingMessage.emit (events.js:201:15)
+    at endReadableNT (_stream_readable.js:1130:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:17) {
+  config: {
+    adapter: [Function: httpAdapter],
+    transformRequest: { '0': [Function: transformRequest] },
+    transformResponse: { '0': [Function: transformResponse] },
+    timeout: 55000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    validateStatus: [Function: validateStatus],
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'Application/json',
+      'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+        '(KHTML, like Gecko) Chrome/70.0.3538.77 ' +
+        'Safari/537.36'
+    },
+    method: 'get',
+    baseURL: 'https://api.xsellco.com/v1',
+    auth: {
+      username: 'ebayduplex@gmail.com',
+      password: 'SDHKNSKLjsklsjjk**Ksj'
+    },
+    params: { ordered_after: '2019-08-07T00:00:00Z', page: 1, page_limit: 10 },
+    url: 'https://api.xsellco.com/v1/orders',
+    data: undefined
+  },
+  request: ClientRequest {
+    _events: [Object: null prototype] {
+      socket: [Function],
+      abort: [Function],
+      aborted: [Function],
+      error: [Function],
+      timeout: [Function],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 6,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      _SNICallback: null,
+      servername: false,
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.xsellco.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(asyncId)]: 471,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    connection: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      _SNICallback: null,
+      servername: false,
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.xsellco.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(asyncId)]: 471,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'GET ' +
+      '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10 ' +
+      'HTTP/1.1\r' +
+      '\nAccept: application/json, text/plain, */*\r' +
+      '\nContent-Type: Application/json\r' +
+      '\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+      '(KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36\r' +
+      '\nHost: api.xsellco.com\r' +
+      '\nAuthorization: Basic ' +
+      'ZWJheWR1cGxleEBnbWFpbC5jb206U0RIS05TS0xqc2tsc2pqayoqS3Nq\r' +
+      '\nConnection: close\r' +
+      '\n\r' +
+      '\n',
+    _onPendingData: [Function: noopPendingOutput],
+    agent: Agent {
+      _events: [Object],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxCachedSessions: 100,
+      _sessionCache: [Object]
+    },
+    socketPath: undefined,
+    method: 'GET',
+    path: '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 429,
+      statusMessage: 'Too Many Requests',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular],
+      responseUrl: 'https://ebayduplex%40gmail.com:SDHKNSKLjsklsjjk**Ksj@api.xsellco.com/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10',
+      redirects: []
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function],
+      _currentRequest: [Circular],
+      _currentUrl: 'https://ebayduplex%40gmail.com:SDHKNSKLjsklsjjk**Ksj@api.xsellco.com/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10'
+    },
+    [Symbol(isCorked)]: false,
+    [Symbol(outHeadersKey)]: [Object: null prototype] {
+      accept: [Array],
+      'content-type': [Array],
+      'user-agent': [Array],
+      host: [Array],
+      authorization: [Array]
+    }
+  },
+  response: {
+    status: 429,
+    statusText: 'Too Many Requests',
+    headers: {
+      'content-type': 'application/json',
+      date: 'Wed, 07 Aug 2019 14:01:03 GMT',
+      server: 'nginx',
+      'content-length': '69',
+      connection: 'Close'
+    },
+    config: {
+      adapter: [Function: httpAdapter],
+      transformRequest: [Object],
+      transformResponse: [Object],
+      timeout: 55000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      validateStatus: [Function: validateStatus],
+      headers: [Object],
+      method: 'get',
+      baseURL: 'https://api.xsellco.com/v1',
+      auth: [Object],
+      params: [Object],
+      url: 'https://api.xsellco.com/v1/orders',
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object],
+      _eventsCount: 6,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      _header: 'GET ' +
+        '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10 ' +
+        'HTTP/1.1\r' +
+        '\nAccept: application/json, text/plain, */*\r' +
+        '\nContent-Type: Application/json\r' +
+        '\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+        '(KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36\r' +
+        '\nHost: api.xsellco.com\r' +
+        '\nAuthorization: Basic ' +
+        'ZWJheWR1cGxleEBnbWFpbC5jb206U0RIS05TS0xqc2tsc2pqayoqS3Nq\r' +
+        '\nConnection: close\r' +
+        '\n\r' +
+        '\n',
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      path: '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      _redirectable: [Writable],
+      [Symbol(isCorked)]: false,
+      [Symbol(outHeadersKey)]: [Object]
+    },
+    data: {
+      code: 429,
+      message: 'You have reached the maximum requests limit'
+    }
+  }
+}
+11 : waited  16.5
+[
+  { idx: 0, sentRequestAt: '2019-08-07T14:00:48.415Z' },
+  { idx: 1, sentRequestAt: '2019-08-07T14:00:49.911Z' },
+  { idx: 2, sentRequestAt: '2019-08-07T14:00:51.412Z' },
+  { idx: 3, sentRequestAt: '2019-08-07T14:00:52.911Z' },
+  { idx: 4, sentRequestAt: '2019-08-07T14:00:54.412Z' },
+  { idx: 5, sentRequestAt: '2019-08-07T14:00:55.912Z' },
+  { idx: 6, sentRequestAt: '2019-08-07T14:00:57.408Z' },
+  { idx: 7, sentRequestAt: '2019-08-07T14:00:58.912Z' },
+  { idx: 8, sentRequestAt: '2019-08-07T14:01:00.412Z' },
+  { idx: 9, sentRequestAt: '2019-08-07T14:01:01.911Z' },
+  { idx: 10, sentRequestAt: '2019-08-07T14:01:03.409Z' },
+  { idx: 11, sentRequestAt: '2019-08-07T14:01:04.912Z' }
+]
+Error: Request failed with status code 429
+    at createError (/Users/Dasha/Projects/keysys-core-node/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/Dasha/Projects/keysys-core-node/node_modules/axios/lib/core/settle.js:18:12)
+    at IncomingMessage.handleStreamEnd (/Users/Dasha/Projects/keysys-core-node/node_modules/axios/lib/adapters/http.js:201:11)
+    at IncomingMessage.emit (events.js:201:15)
+    at endReadableNT (_stream_readable.js:1130:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:17) {
+  config: {
+    adapter: [Function: httpAdapter],
+    transformRequest: { '0': [Function: transformRequest] },
+    transformResponse: { '0': [Function: transformResponse] },
+    timeout: 55000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    validateStatus: [Function: validateStatus],
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'Application/json',
+      'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+        '(KHTML, like Gecko) Chrome/70.0.3538.77 ' +
+        'Safari/537.36'
+    },
+    method: 'get',
+    baseURL: 'https://api.xsellco.com/v1',
+    auth: {
+      username: 'ebayduplex@gmail.com',
+      password: 'SDHKNSKLjsklsjjk**Ksj'
+    },
+    params: { ordered_after: '2019-08-07T00:00:00Z', page: 1, page_limit: 10 },
+    url: 'https://api.xsellco.com/v1/orders',
+    data: undefined
+  },
+  request: ClientRequest {
+    _events: [Object: null prototype] {
+      socket: [Function],
+      abort: [Function],
+      aborted: [Function],
+      error: [Function],
+      timeout: [Function],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 6,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      _SNICallback: null,
+      servername: false,
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.xsellco.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(asyncId)]: 496,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    connection: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      _SNICallback: null,
+      servername: false,
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.xsellco.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(asyncId)]: 496,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'GET ' +
+      '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10 ' +
+      'HTTP/1.1\r' +
+      '\nAccept: application/json, text/plain, */*\r' +
+      '\nContent-Type: Application/json\r' +
+      '\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+      '(KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36\r' +
+      '\nHost: api.xsellco.com\r' +
+      '\nAuthorization: Basic ' +
+      'ZWJheWR1cGxleEBnbWFpbC5jb206U0RIS05TS0xqc2tsc2pqayoqS3Nq\r' +
+      '\nConnection: close\r' +
+      '\n\r' +
+      '\n',
+    _onPendingData: [Function: noopPendingOutput],
+    agent: Agent {
+      _events: [Object],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxCachedSessions: 100,
+      _sessionCache: [Object]
+    },
+    socketPath: undefined,
+    method: 'GET',
+    path: '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 429,
+      statusMessage: 'Too Many Requests',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular],
+      responseUrl: 'https://ebayduplex%40gmail.com:SDHKNSKLjsklsjjk**Ksj@api.xsellco.com/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10',
+      redirects: []
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function],
+      _currentRequest: [Circular],
+      _currentUrl: 'https://ebayduplex%40gmail.com:SDHKNSKLjsklsjjk**Ksj@api.xsellco.com/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10'
+    },
+    [Symbol(isCorked)]: false,
+    [Symbol(outHeadersKey)]: [Object: null prototype] {
+      accept: [Array],
+      'content-type': [Array],
+      'user-agent': [Array],
+      host: [Array],
+      authorization: [Array]
+    }
+  },
+  response: {
+    status: 429,
+    statusText: 'Too Many Requests',
+    headers: {
+      'content-type': 'application/json',
+      date: 'Wed, 07 Aug 2019 14:01:05 GMT',
+      server: 'nginx',
+      'content-length': '69',
+      connection: 'Close'
+    },
+    config: {
+      adapter: [Function: httpAdapter],
+      transformRequest: [Object],
+      transformResponse: [Object],
+      timeout: 55000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      validateStatus: [Function: validateStatus],
+      headers: [Object],
+      method: 'get',
+      baseURL: 'https://api.xsellco.com/v1',
+      auth: [Object],
+      params: [Object],
+      url: 'https://api.xsellco.com/v1/orders',
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object],
+      _eventsCount: 6,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      _header: 'GET ' +
+        '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10 ' +
+        'HTTP/1.1\r' +
+        '\nAccept: application/json, text/plain, */*\r' +
+        '\nContent-Type: Application/json\r' +
+        '\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+        '(KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36\r' +
+        '\nHost: api.xsellco.com\r' +
+        '\nAuthorization: Basic ' +
+        'ZWJheWR1cGxleEBnbWFpbC5jb206U0RIS05TS0xqc2tsc2pqayoqS3Nq\r' +
+        '\nConnection: close\r' +
+        '\n\r' +
+        '\n',
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      path: '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      _redirectable: [Writable],
+      [Symbol(isCorked)]: false,
+      [Symbol(outHeadersKey)]: [Object]
+    },
+    data: {
+      code: 429,
+      message: 'You have reached the maximum requests limit'
+    }
+  }
+}
+12 : waited  18
+[
+  { idx: 0, sentRequestAt: '2019-08-07T14:00:48.415Z' },
+  { idx: 1, sentRequestAt: '2019-08-07T14:00:49.911Z' },
+  { idx: 2, sentRequestAt: '2019-08-07T14:00:51.412Z' },
+  { idx: 3, sentRequestAt: '2019-08-07T14:00:52.911Z' },
+  { idx: 4, sentRequestAt: '2019-08-07T14:00:54.412Z' },
+  { idx: 5, sentRequestAt: '2019-08-07T14:00:55.912Z' },
+  { idx: 6, sentRequestAt: '2019-08-07T14:00:57.408Z' },
+  { idx: 7, sentRequestAt: '2019-08-07T14:00:58.912Z' },
+  { idx: 8, sentRequestAt: '2019-08-07T14:01:00.412Z' },
+  { idx: 9, sentRequestAt: '2019-08-07T14:01:01.911Z' },
+  { idx: 10, sentRequestAt: '2019-08-07T14:01:03.409Z' },
+  { idx: 11, sentRequestAt: '2019-08-07T14:01:04.912Z' },
+  { idx: 12, sentRequestAt: '2019-08-07T14:01:06.413Z' }
+]
+Error: Request failed with status code 429
+    at createError (/Users/Dasha/Projects/keysys-core-node/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/Dasha/Projects/keysys-core-node/node_modules/axios/lib/core/settle.js:18:12)
+    at IncomingMessage.handleStreamEnd (/Users/Dasha/Projects/keysys-core-node/node_modules/axios/lib/adapters/http.js:201:11)
+    at IncomingMessage.emit (events.js:201:15)
+    at endReadableNT (_stream_readable.js:1130:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:17) {
+  config: {
+    adapter: [Function: httpAdapter],
+    transformRequest: { '0': [Function: transformRequest] },
+    transformResponse: { '0': [Function: transformResponse] },
+    timeout: 55000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    validateStatus: [Function: validateStatus],
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'Application/json',
+      'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+        '(KHTML, like Gecko) Chrome/70.0.3538.77 ' +
+        'Safari/537.36'
+    },
+    method: 'get',
+    baseURL: 'https://api.xsellco.com/v1',
+    auth: {
+      username: 'ebayduplex@gmail.com',
+      password: 'SDHKNSKLjsklsjjk**Ksj'
+    },
+    params: { ordered_after: '2019-08-07T00:00:00Z', page: 1, page_limit: 10 },
+    url: 'https://api.xsellco.com/v1/orders',
+    data: undefined
+  },
+  request: ClientRequest {
+    _events: [Object: null prototype] {
+      socket: [Function],
+      abort: [Function],
+      aborted: [Function],
+      error: [Function],
+      timeout: [Function],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 6,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      _SNICallback: null,
+      servername: false,
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.xsellco.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(asyncId)]: 521,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    connection: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      _SNICallback: null,
+      servername: false,
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.xsellco.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(asyncId)]: 521,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'GET ' +
+      '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10 ' +
+      'HTTP/1.1\r' +
+      '\nAccept: application/json, text/plain, */*\r' +
+      '\nContent-Type: Application/json\r' +
+      '\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+      '(KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36\r' +
+      '\nHost: api.xsellco.com\r' +
+      '\nAuthorization: Basic ' +
+      'ZWJheWR1cGxleEBnbWFpbC5jb206U0RIS05TS0xqc2tsc2pqayoqS3Nq\r' +
+      '\nConnection: close\r' +
+      '\n\r' +
+      '\n',
+    _onPendingData: [Function: noopPendingOutput],
+    agent: Agent {
+      _events: [Object],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxCachedSessions: 100,
+      _sessionCache: [Object]
+    },
+    socketPath: undefined,
+    method: 'GET',
+    path: '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 429,
+      statusMessage: 'Too Many Requests',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular],
+      responseUrl: 'https://ebayduplex%40gmail.com:SDHKNSKLjsklsjjk**Ksj@api.xsellco.com/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10',
+      redirects: []
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function],
+      _currentRequest: [Circular],
+      _currentUrl: 'https://ebayduplex%40gmail.com:SDHKNSKLjsklsjjk**Ksj@api.xsellco.com/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10'
+    },
+    [Symbol(isCorked)]: false,
+    [Symbol(outHeadersKey)]: [Object: null prototype] {
+      accept: [Array],
+      'content-type': [Array],
+      'user-agent': [Array],
+      host: [Array],
+      authorization: [Array]
+    }
+  },
+  response: {
+    status: 429,
+    statusText: 'Too Many Requests',
+    headers: {
+      'content-type': 'application/json',
+      date: 'Wed, 07 Aug 2019 14:01:06 GMT',
+      server: 'nginx',
+      'content-length': '69',
+      connection: 'Close'
+    },
+    config: {
+      adapter: [Function: httpAdapter],
+      transformRequest: [Object],
+      transformResponse: [Object],
+      timeout: 55000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      validateStatus: [Function: validateStatus],
+      headers: [Object],
+      method: 'get',
+      baseURL: 'https://api.xsellco.com/v1',
+      auth: [Object],
+      params: [Object],
+      url: 'https://api.xsellco.com/v1/orders',
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object],
+      _eventsCount: 6,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      _header: 'GET ' +
+        '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10 ' +
+        'HTTP/1.1\r' +
+        '\nAccept: application/json, text/plain, */*\r' +
+        '\nContent-Type: Application/json\r' +
+        '\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+        '(KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36\r' +
+        '\nHost: api.xsellco.com\r' +
+        '\nAuthorization: Basic ' +
+        'ZWJheWR1cGxleEBnbWFpbC5jb206U0RIS05TS0xqc2tsc2pqayoqS3Nq\r' +
+        '\nConnection: close\r' +
+        '\n\r' +
+        '\n',
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      path: '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      _redirectable: [Writable],
+      [Symbol(isCorked)]: false,
+      [Symbol(outHeadersKey)]: [Object]
+    },
+    data: {
+      code: 429,
+      message: 'You have reached the maximum requests limit'
+    }
+  }
+}
+13 : waited  19.5
+[
+  { idx: 0, sentRequestAt: '2019-08-07T14:00:48.415Z' },
+  { idx: 1, sentRequestAt: '2019-08-07T14:00:49.911Z' },
+  { idx: 2, sentRequestAt: '2019-08-07T14:00:51.412Z' },
+  { idx: 3, sentRequestAt: '2019-08-07T14:00:52.911Z' },
+  { idx: 4, sentRequestAt: '2019-08-07T14:00:54.412Z' },
+  { idx: 5, sentRequestAt: '2019-08-07T14:00:55.912Z' },
+  { idx: 6, sentRequestAt: '2019-08-07T14:00:57.408Z' },
+  { idx: 7, sentRequestAt: '2019-08-07T14:00:58.912Z' },
+  { idx: 8, sentRequestAt: '2019-08-07T14:01:00.412Z' },
+  { idx: 9, sentRequestAt: '2019-08-07T14:01:01.911Z' },
+  { idx: 10, sentRequestAt: '2019-08-07T14:01:03.409Z' },
+  { idx: 11, sentRequestAt: '2019-08-07T14:01:04.912Z' },
+  { idx: 12, sentRequestAt: '2019-08-07T14:01:06.413Z' },
+  { idx: 13, sentRequestAt: '2019-08-07T14:01:07.912Z' }
+]
+Error: Request failed with status code 429
+    at createError (/Users/Dasha/Projects/keysys-core-node/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/Dasha/Projects/keysys-core-node/node_modules/axios/lib/core/settle.js:18:12)
+    at IncomingMessage.handleStreamEnd (/Users/Dasha/Projects/keysys-core-node/node_modules/axios/lib/adapters/http.js:201:11)
+    at IncomingMessage.emit (events.js:201:15)
+    at endReadableNT (_stream_readable.js:1130:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:17) {
+  config: {
+    adapter: [Function: httpAdapter],
+    transformRequest: { '0': [Function: transformRequest] },
+    transformResponse: { '0': [Function: transformResponse] },
+    timeout: 55000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    validateStatus: [Function: validateStatus],
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'Application/json',
+      'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+        '(KHTML, like Gecko) Chrome/70.0.3538.77 ' +
+        'Safari/537.36'
+    },
+    method: 'get',
+    baseURL: 'https://api.xsellco.com/v1',
+    auth: {
+      username: 'ebayduplex@gmail.com',
+      password: 'SDHKNSKLjsklsjjk**Ksj'
+    },
+    params: { ordered_after: '2019-08-07T00:00:00Z', page: 1, page_limit: 10 },
+    url: 'https://api.xsellco.com/v1/orders',
+    data: undefined
+  },
+  request: ClientRequest {
+    _events: [Object: null prototype] {
+      socket: [Function],
+      abort: [Function],
+      aborted: [Function],
+      error: [Function],
+      timeout: [Function],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 6,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      _SNICallback: null,
+      servername: false,
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.xsellco.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(asyncId)]: 546,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    connection: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      _SNICallback: null,
+      servername: false,
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.xsellco.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(asyncId)]: 546,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'GET ' +
+      '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10 ' +
+      'HTTP/1.1\r' +
+      '\nAccept: application/json, text/plain, */*\r' +
+      '\nContent-Type: Application/json\r' +
+      '\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+      '(KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36\r' +
+      '\nHost: api.xsellco.com\r' +
+      '\nAuthorization: Basic ' +
+      'ZWJheWR1cGxleEBnbWFpbC5jb206U0RIS05TS0xqc2tsc2pqayoqS3Nq\r' +
+      '\nConnection: close\r' +
+      '\n\r' +
+      '\n',
+    _onPendingData: [Function: noopPendingOutput],
+    agent: Agent {
+      _events: [Object],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxCachedSessions: 100,
+      _sessionCache: [Object]
+    },
+    socketPath: undefined,
+    method: 'GET',
+    path: '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 429,
+      statusMessage: 'Too Many Requests',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular],
+      responseUrl: 'https://ebayduplex%40gmail.com:SDHKNSKLjsklsjjk**Ksj@api.xsellco.com/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10',
+      redirects: []
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function],
+      _currentRequest: [Circular],
+      _currentUrl: 'https://ebayduplex%40gmail.com:SDHKNSKLjsklsjjk**Ksj@api.xsellco.com/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10'
+    },
+    [Symbol(isCorked)]: false,
+    [Symbol(outHeadersKey)]: [Object: null prototype] {
+      accept: [Array],
+      'content-type': [Array],
+      'user-agent': [Array],
+      host: [Array],
+      authorization: [Array]
+    }
+  },
+  response: {
+    status: 429,
+    statusText: 'Too Many Requests',
+    headers: {
+      'content-type': 'application/json',
+      date: 'Wed, 07 Aug 2019 14:01:08 GMT',
+      server: 'nginx',
+      'content-length': '69',
+      connection: 'Close'
+    },
+    config: {
+      adapter: [Function: httpAdapter],
+      transformRequest: [Object],
+      transformResponse: [Object],
+      timeout: 55000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      validateStatus: [Function: validateStatus],
+      headers: [Object],
+      method: 'get',
+      baseURL: 'https://api.xsellco.com/v1',
+      auth: [Object],
+      params: [Object],
+      url: 'https://api.xsellco.com/v1/orders',
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object],
+      _eventsCount: 6,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      _header: 'GET ' +
+        '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10 ' +
+        'HTTP/1.1\r' +
+        '\nAccept: application/json, text/plain, */*\r' +
+        '\nContent-Type: Application/json\r' +
+        '\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+        '(KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36\r' +
+        '\nHost: api.xsellco.com\r' +
+        '\nAuthorization: Basic ' +
+        'ZWJheWR1cGxleEBnbWFpbC5jb206U0RIS05TS0xqc2tsc2pqayoqS3Nq\r' +
+        '\nConnection: close\r' +
+        '\n\r' +
+        '\n',
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      path: '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      _redirectable: [Writable],
+      [Symbol(isCorked)]: false,
+      [Symbol(outHeadersKey)]: [Object]
+    },
+    data: {
+      code: 429,
+      message: 'You have reached the maximum requests limit'
+    }
+  }
+}
+14 : waited  21
+[
+  { idx: 0, sentRequestAt: '2019-08-07T14:00:48.415Z' },
+  { idx: 1, sentRequestAt: '2019-08-07T14:00:49.911Z' },
+  { idx: 2, sentRequestAt: '2019-08-07T14:00:51.412Z' },
+  { idx: 3, sentRequestAt: '2019-08-07T14:00:52.911Z' },
+  { idx: 4, sentRequestAt: '2019-08-07T14:00:54.412Z' },
+  { idx: 5, sentRequestAt: '2019-08-07T14:00:55.912Z' },
+  { idx: 6, sentRequestAt: '2019-08-07T14:00:57.408Z' },
+  { idx: 7, sentRequestAt: '2019-08-07T14:00:58.912Z' },
+  { idx: 8, sentRequestAt: '2019-08-07T14:01:00.412Z' },
+  { idx: 9, sentRequestAt: '2019-08-07T14:01:01.911Z' },
+  { idx: 10, sentRequestAt: '2019-08-07T14:01:03.409Z' },
+  { idx: 11, sentRequestAt: '2019-08-07T14:01:04.912Z' },
+  { idx: 12, sentRequestAt: '2019-08-07T14:01:06.413Z' },
+  { idx: 13, sentRequestAt: '2019-08-07T14:01:07.912Z' },
+  { idx: 14, sentRequestAt: '2019-08-07T14:01:09.411Z' }
+]
+Error: Request failed with status code 429
+    at createError (/Users/Dasha/Projects/keysys-core-node/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/Dasha/Projects/keysys-core-node/node_modules/axios/lib/core/settle.js:18:12)
+    at IncomingMessage.handleStreamEnd (/Users/Dasha/Projects/keysys-core-node/node_modules/axios/lib/adapters/http.js:201:11)
+    at IncomingMessage.emit (events.js:201:15)
+    at endReadableNT (_stream_readable.js:1130:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:17) {
+  config: {
+    adapter: [Function: httpAdapter],
+    transformRequest: { '0': [Function: transformRequest] },
+    transformResponse: { '0': [Function: transformResponse] },
+    timeout: 55000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    validateStatus: [Function: validateStatus],
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'Application/json',
+      'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+        '(KHTML, like Gecko) Chrome/70.0.3538.77 ' +
+        'Safari/537.36'
+    },
+    method: 'get',
+    baseURL: 'https://api.xsellco.com/v1',
+    auth: {
+      username: 'ebayduplex@gmail.com',
+      password: 'SDHKNSKLjsklsjjk**Ksj'
+    },
+    params: { ordered_after: '2019-08-07T00:00:00Z', page: 1, page_limit: 10 },
+    url: 'https://api.xsellco.com/v1/orders',
+    data: undefined
+  },
+  request: ClientRequest {
+    _events: [Object: null prototype] {
+      socket: [Function],
+      abort: [Function],
+      aborted: [Function],
+      error: [Function],
+      timeout: [Function],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 6,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      _SNICallback: null,
+      servername: false,
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.xsellco.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(asyncId)]: 571,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    connection: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      _SNICallback: null,
+      servername: false,
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.xsellco.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(asyncId)]: 571,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'GET ' +
+      '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10 ' +
+      'HTTP/1.1\r' +
+      '\nAccept: application/json, text/plain, */*\r' +
+      '\nContent-Type: Application/json\r' +
+      '\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+      '(KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36\r' +
+      '\nHost: api.xsellco.com\r' +
+      '\nAuthorization: Basic ' +
+      'ZWJheWR1cGxleEBnbWFpbC5jb206U0RIS05TS0xqc2tsc2pqayoqS3Nq\r' +
+      '\nConnection: close\r' +
+      '\n\r' +
+      '\n',
+    _onPendingData: [Function: noopPendingOutput],
+    agent: Agent {
+      _events: [Object],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxCachedSessions: 100,
+      _sessionCache: [Object]
+    },
+    socketPath: undefined,
+    method: 'GET',
+    path: '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 429,
+      statusMessage: 'Too Many Requests',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular],
+      responseUrl: 'https://ebayduplex%40gmail.com:SDHKNSKLjsklsjjk**Ksj@api.xsellco.com/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10',
+      redirects: []
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function],
+      _currentRequest: [Circular],
+      _currentUrl: 'https://ebayduplex%40gmail.com:SDHKNSKLjsklsjjk**Ksj@api.xsellco.com/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10'
+    },
+    [Symbol(isCorked)]: false,
+    [Symbol(outHeadersKey)]: [Object: null prototype] {
+      accept: [Array],
+      'content-type': [Array],
+      'user-agent': [Array],
+      host: [Array],
+      authorization: [Array]
+    }
+  },
+  response: {
+    status: 429,
+    statusText: 'Too Many Requests',
+    headers: {
+      'content-type': 'application/json',
+      date: 'Wed, 07 Aug 2019 14:01:09 GMT',
+      server: 'nginx',
+      'content-length': '69',
+      connection: 'Close'
+    },
+    config: {
+      adapter: [Function: httpAdapter],
+      transformRequest: [Object],
+      transformResponse: [Object],
+      timeout: 55000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      validateStatus: [Function: validateStatus],
+      headers: [Object],
+      method: 'get',
+      baseURL: 'https://api.xsellco.com/v1',
+      auth: [Object],
+      params: [Object],
+      url: 'https://api.xsellco.com/v1/orders',
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object],
+      _eventsCount: 6,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      _header: 'GET ' +
+        '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10 ' +
+        'HTTP/1.1\r' +
+        '\nAccept: application/json, text/plain, */*\r' +
+        '\nContent-Type: Application/json\r' +
+        '\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+        '(KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36\r' +
+        '\nHost: api.xsellco.com\r' +
+        '\nAuthorization: Basic ' +
+        'ZWJheWR1cGxleEBnbWFpbC5jb206U0RIS05TS0xqc2tsc2pqayoqS3Nq\r' +
+        '\nConnection: close\r' +
+        '\n\r' +
+        '\n',
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      path: '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      _redirectable: [Writable],
+      [Symbol(isCorked)]: false,
+      [Symbol(outHeadersKey)]: [Object]
+    },
+    data: {
+      code: 429,
+      message: 'You have reached the maximum requests limit'
+    }
+  }
+}
+15 : waited  22.5
+[
+  { idx: 0, sentRequestAt: '2019-08-07T14:00:48.415Z' },
+  { idx: 1, sentRequestAt: '2019-08-07T14:00:49.911Z' },
+  { idx: 2, sentRequestAt: '2019-08-07T14:00:51.412Z' },
+  { idx: 3, sentRequestAt: '2019-08-07T14:00:52.911Z' },
+  { idx: 4, sentRequestAt: '2019-08-07T14:00:54.412Z' },
+  { idx: 5, sentRequestAt: '2019-08-07T14:00:55.912Z' },
+  { idx: 6, sentRequestAt: '2019-08-07T14:00:57.408Z' },
+  { idx: 7, sentRequestAt: '2019-08-07T14:00:58.912Z' },
+  { idx: 8, sentRequestAt: '2019-08-07T14:01:00.412Z' },
+  { idx: 9, sentRequestAt: '2019-08-07T14:01:01.911Z' },
+  { idx: 10, sentRequestAt: '2019-08-07T14:01:03.409Z' },
+  { idx: 11, sentRequestAt: '2019-08-07T14:01:04.912Z' },
+  { idx: 12, sentRequestAt: '2019-08-07T14:01:06.413Z' },
+  { idx: 13, sentRequestAt: '2019-08-07T14:01:07.912Z' },
+  { idx: 14, sentRequestAt: '2019-08-07T14:01:09.411Z' },
+  { idx: 15, sentRequestAt: '2019-08-07T14:01:10.907Z' }
+]
+Error: Request failed with status code 429
+    at createError (/Users/Dasha/Projects/keysys-core-node/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/Dasha/Projects/keysys-core-node/node_modules/axios/lib/core/settle.js:18:12)
+    at IncomingMessage.handleStreamEnd (/Users/Dasha/Projects/keysys-core-node/node_modules/axios/lib/adapters/http.js:201:11)
+    at IncomingMessage.emit (events.js:201:15)
+    at endReadableNT (_stream_readable.js:1130:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:17) {
+  config: {
+    adapter: [Function: httpAdapter],
+    transformRequest: { '0': [Function: transformRequest] },
+    transformResponse: { '0': [Function: transformResponse] },
+    timeout: 55000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    validateStatus: [Function: validateStatus],
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'Application/json',
+      'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+        '(KHTML, like Gecko) Chrome/70.0.3538.77 ' +
+        'Safari/537.36'
+    },
+    method: 'get',
+    baseURL: 'https://api.xsellco.com/v1',
+    auth: {
+      username: 'ebayduplex@gmail.com',
+      password: 'SDHKNSKLjsklsjjk**Ksj'
+    },
+    params: { ordered_after: '2019-08-07T00:00:00Z', page: 1, page_limit: 10 },
+    url: 'https://api.xsellco.com/v1/orders',
+    data: undefined
+  },
+  request: ClientRequest {
+    _events: [Object: null prototype] {
+      socket: [Function],
+      abort: [Function],
+      aborted: [Function],
+      error: [Function],
+      timeout: [Function],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 6,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      _SNICallback: null,
+      servername: false,
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.xsellco.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(asyncId)]: 596,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    connection: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      _SNICallback: null,
+      servername: false,
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.xsellco.com',
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(asyncId)]: 596,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'GET ' +
+      '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10 ' +
+      'HTTP/1.1\r' +
+      '\nAccept: application/json, text/plain, */*\r' +
+      '\nContent-Type: Application/json\r' +
+      '\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+      '(KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36\r' +
+      '\nHost: api.xsellco.com\r' +
+      '\nAuthorization: Basic ' +
+      'ZWJheWR1cGxleEBnbWFpbC5jb206U0RIS05TS0xqc2tsc2pqayoqS3Nq\r' +
+      '\nConnection: close\r' +
+      '\n\r' +
+      '\n',
+    _onPendingData: [Function: noopPendingOutput],
+    agent: Agent {
+      _events: [Object],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxCachedSessions: 100,
+      _sessionCache: [Object]
+    },
+    socketPath: undefined,
+    method: 'GET',
+    path: '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 429,
+      statusMessage: 'Too Many Requests',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular],
+      responseUrl: 'https://ebayduplex%40gmail.com:SDHKNSKLjsklsjjk**Ksj@api.xsellco.com/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10',
+      redirects: []
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function],
+      _currentRequest: [Circular],
+      _currentUrl: 'https://ebayduplex%40gmail.com:SDHKNSKLjsklsjjk**Ksj@api.xsellco.com/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10'
+    },
+    [Symbol(isCorked)]: false,
+    [Symbol(outHeadersKey)]: [Object: null prototype] {
+      accept: [Array],
+      'content-type': [Array],
+      'user-agent': [Array],
+      host: [Array],
+      authorization: [Array]
+    }
+  },
+  response: {
+    status: 429,
+    statusText: 'Too Many Requests',
+    headers: {
+      'content-type': 'application/json',
+      date: 'Wed, 07 Aug 2019 14:01:11 GMT',
+      server: 'nginx',
+      'content-length': '69',
+      connection: 'Close'
+    },
+    config: {
+      adapter: [Function: httpAdapter],
+      transformRequest: [Object],
+      transformResponse: [Object],
+      timeout: 55000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      validateStatus: [Function: validateStatus],
+      headers: [Object],
+      method: 'get',
+      baseURL: 'https://api.xsellco.com/v1',
+      auth: [Object],
+      params: [Object],
+      url: 'https://api.xsellco.com/v1/orders',
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object],
+      _eventsCount: 6,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      _header: 'GET ' +
+        '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10 ' +
+        'HTTP/1.1\r' +
+        '\nAccept: application/json, text/plain, */*\r' +
+        '\nContent-Type: Application/json\r' +
+        '\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+        '(KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36\r' +
+        '\nHost: api.xsellco.com\r' +
+        '\nAuthorization: Basic ' +
+        'ZWJheWR1cGxleEBnbWFpbC5jb206U0RIS05TS0xqc2tsc2pqayoqS3Nq\r' +
+        '\nConnection: close\r' +
+        '\n\r' +
+        '\n',
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      path: '/v1/orders?ordered_after=2019-08-07T00:00:00Z&page=1&page_limit=10',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      _redirectable: [Writable],
+      [Symbol(isCorked)]: false,
+      [Symbol(outHeadersKey)]: [Object]
+    },
+    data: {
+      code: 429,
+      message: 'You have reached the maximum requests limit'
+    }
+  }
+}
